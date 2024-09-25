@@ -6,6 +6,14 @@
 
 The code will be released soon ^_^
 
+## Installation
+
+### Environments
+
+### Prepare Models
+
+## Running Quantization
+
 ## Citation
 
 ```latex
@@ -16,3 +24,11 @@ The code will be released soon ^_^
   year={2025}
 }
 ```
+
+## Contact Us
+
+If you have any questions, please contact:
+
+- Haomin Li: haominli@sjtu.edu.cn
+
+- Zewen Sun: 3022244294@tju.edu.cn

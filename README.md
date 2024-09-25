@@ -6,10 +6,12 @@
 
 The code will be released soon ^_^
 
-## Installation
+## Introduction
 
 ![NeuronQuant Framework](images/NeuronQuant_Framework.jpg)
 ![NeuronQuant Overall Results](images/NeuronQuant_Overall_Results.jpg)
+
+## Installation
 
 ### Environments
 

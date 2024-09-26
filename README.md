@@ -30,6 +30,10 @@ The code will be released soon ^_^
 }
 ```
 
+## Acknowledgement
+
+Our Code is based on the implementation of [ANN2SNN_SRP](https://github.com/hzc1208/ANN2SNN_SRP).
+
 ## Contact Us
 
 If you have any questions, please contact:

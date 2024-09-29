@@ -4,12 +4,9 @@
 
 > **This is the official implementation of the paper of the paper "NeuronQuant: Accurate and Efficient Post-Training Quantization for Spiking Neural Networks"  [ASP-DAC 2025] **
 
-The code will be released soon ^_^
-
 ## Introduction
 
 ![NeuronQuant Framework](images/NeuronQuant_Framework.jpg)
-![NeuronQuant Overall Results](images/NeuronQuant_Overall_Results.jpg)
 
 ### Prepare Models and Running Quantization
 

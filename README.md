@@ -11,13 +11,11 @@ The code will be released soon ^_^
 ![NeuronQuant Framework](images/NeuronQuant_Framework.jpg)
 ![NeuronQuant Overall Results](images/NeuronQuant_Overall_Results.jpg)
 
-## Installation
+### Prepare Models and Running Quantization
 
-### Environments
-
-### Prepare Models
-
-## Running Quantization
+```shell
+./run.sh
+```
 
 ## Citation
 

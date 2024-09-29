@@ -1,0 +1,1 @@
+python -u main.py --direct_training --trainann_epochs 300 --net_arch vgg16 --dataset CIFAR10 --load_model_name vgg16_CIFAR10.pth --bits 4 --bits_rate 1.0 --quant_method score --strategy score --sim_len 128 --batchsize 128

@@ -131,7 +131,6 @@ def merge_threshold_with_next_layer(neuron, conv):
 
 
 def quant_fc_in_once(fc, neuron, bitwidth):
-    '''Baseline: 传入全连接层和相邻的SNN层神经元，将整体进行量化'''
     global exp_device
     w = fc.weight.data # [out_features, in_features]
     if len(fc.state_dict()) == 2:
@@ -149,7 +148,6 @@ def quant_conv2d_in_once(conv, neuron, bitwidth):
     return conv, IFNeuron(v_threshold, True, neuron.v_threshold, "conv", exp_device)
 
 def quant_res_conv_in_once(conv, shortcut, neuron, bitwidth):
-    ''' shortcut也是conv '''
     global exp_device
     w_shortcut = shortcut.weight.data.cpu()
     w = conv.weight.data.cpu() # [out_channels, in_channels, kernel_size, kernel_size]
@@ -161,7 +159,6 @@ def quant_res_conv_in_once(conv, shortcut, neuron, bitwidth):
     return conv, shortcut, IFNeuron(v_threshold, True, neuron.v_threshold, "conv", exp_device)
 
 def quant_res_linear_in_once(conv, shortcut, neuron, bitwidth):
-    ''' shortcut是linear '''
     global exp_device
     w_shortcut = []
     for i in range(conv.out_channels):

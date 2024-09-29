@@ -34,5 +34,7 @@ Our Code is based on the implementation of [ANN2SNN_SRP](https://github.com/hzc1
 If you have any questions, please contact:
 
 - Haomin Li: haominli@sjtu.edu.cn
-
+- Fangxin Liu: liufangxin@sjtu.edu.cn
 - Zewen Sun: 3022244294@tju.edu.cn
+- Li Jiang: ljiang_cs@sjtu.edu.cn
+
